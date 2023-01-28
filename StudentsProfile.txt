@@ -1,0 +1,10 @@
+ 
+StudentProfile
+
+Full Name = GT
+TUIdNumber = 213654987
+Email = gt
+Phone Number = 123
+Major = gt
+Expected Graduating Date = 2.32
+Is Student An Undergraduate =  Yes

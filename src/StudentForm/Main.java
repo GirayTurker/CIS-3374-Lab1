@@ -20,7 +20,7 @@ public class Main {
             String newStudent;
             newStudent = kb.next ();
 
-            if (newStudent.equalsIgnoreCase ("Y") || newStudent.equalsIgnoreCase ("y")){
+            if ("Y".equalsIgnoreCase (newStudent) || "y".equalsIgnoreCase (newStudent)){
 
                 System.out.print ("Student Full Name: ");
                 String fullName = kb.next ();
@@ -76,14 +76,14 @@ public class Main {
                     System.out.print ("Is the Student an Undergraduate? Yes for 'Y' No for 'N': ");
                     isStudentAnUndergraduate = kb.next ();
 
-                    if (isStudentAnUndergraduate.equalsIgnoreCase ("Y")  || isStudentAnUndergraduate.equalsIgnoreCase ("y")) {
+                    if ("Y".equalsIgnoreCase (isStudentAnUndergraduate)  || "y".equalsIgnoreCase (isStudentAnUndergraduate)) {
                         //System.out.println ("The Student Undergraduate");
                         isStudentAnUndergraduate =" Yes";
                         b=true;
                         break;
                     }
 
-                    else if (isStudentAnUndergraduate.equalsIgnoreCase ("N")  || isStudentAnUndergraduate.equalsIgnoreCase ("n")) {
+                    else if ("N".equalsIgnoreCase (isStudentAnUndergraduate)  || "n".equalsIgnoreCase (isStudentAnUndergraduate)) {
                         //System.out.println ("The Student is NOT Undergraduate");
                         isStudentAnUndergraduate = " No";
                         b=true;
